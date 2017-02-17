@@ -11,5 +11,11 @@
 
 // Custom definitions may go here
 
+repositories {
+    flatDir {
+        dirs 'libs', '/Users/andrew/Documents/Android Studio/ftc_app_new/libs'
+    }
+}
+
 // Include common definitions from above.
 apply from: '../build.common.gradle'
