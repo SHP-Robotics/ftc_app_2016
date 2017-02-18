@@ -37,11 +37,11 @@ public class GatorBase extends OpMode {
     public static final double K_RIGHT_SERVO_BOOP = 0;
     public static final int K_PULSES_PER_REVOLUTION = 1120;
     public static final double K_LAUNCH_SERVO_STOW = 0.8;
-    public static final double K_LAUNCH_SERVO_ACTIVE = 0.4;
+    public static final double K_LAUNCH_SERVO_ACTIVE = 0.2;
     public static final double K_DISTANCE_PER_REVOLUTION = 4 * 3.141592;
     public static final double K_ONE_INCH = K_PULSES_PER_REVOLUTION/K_DISTANCE_PER_REVOLUTION;
     public static final double K_NAVX_ERROR_TOLERANCE = 1;
-    public static final double K_FLYWHEEL_SPEED = 0.45;
+    public static final double K_FLYWHEEL_SPEED = 1;
 
     public GatorBase() {
 
